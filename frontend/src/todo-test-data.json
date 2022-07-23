@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "title": "First todo",
+        "complete": false
+    },
+    {
+        "id": 2,
+        "title": "Second todo",
+        "complete": true
+    }
+]
