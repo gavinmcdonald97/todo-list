@@ -1,7 +1,6 @@
-import React from 'react'
-import { useState } from 'react'
+import {useState} from 'react'
 
-const AddTodoItemForm = ({ parentHandleSubmit }) => {
+const AddTodoItemForm = ({parentHandleSubmit}) => {
 
     const [value, setValue] = useState('')
 
@@ -17,8 +16,8 @@ const AddTodoItemForm = ({ parentHandleSubmit }) => {
     }
 
     return (
-        <form onSubmit={ handleSubmit }>
-            <input type="text" required onChange={ handleChange } value={ value } />
+        <form onSubmit={handleSubmit}>
+            <input type="text" required onChange={handleChange} value={value}/>
             <button type="submit">Add item</button>
         </form>
     )

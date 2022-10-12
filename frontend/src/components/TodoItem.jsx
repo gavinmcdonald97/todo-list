@@ -1,4 +1,3 @@
-import React from 'react'
 import {useState} from 'react'
 
 const TodoItem = ({id, title, complete}) => {
@@ -18,5 +17,3 @@ const TodoItem = ({id, title, complete}) => {
 }
 
 export default TodoItem
-
-
